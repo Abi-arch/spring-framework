@@ -42,6 +42,7 @@ public class XmlBeanDefinitionReaderTests {
 
 	@Test
 	public void setParserClassSunnyDay() {
+		//11
 		SimpleBeanDefinitionRegistry registry = new SimpleBeanDefinitionRegistry();
 		new XmlBeanDefinitionReader(registry).setDocumentReaderClass(DefaultBeanDefinitionDocumentReader.class);
 	}
